@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <a name="anchor"> </a>
+
+    <link rel="stylesheet" href="asset/css/ass.css" />
+    <link
+      rel="icon"
+      href="asset/image/footer.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+  </head>
+
+  <title>DASH Official</title>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div class="img">
+        <img src="asset/image/logo3.png" width="120px" />
+      </div>
+      <div class="position">
+        <a href="index.html" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            About Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="misivisi.html">Video Corporate</a>
+            <a href="misivisi.html#bb">Mission & Vision</a>
+            <a href="misivisi.html#cc">Objectives</a>
+            <a href="misivisi.html#dd">Background</a>
+            <a href="misivisi.html#ee">Organizational Chart</a>
+          </div>
+        </div>
+        <a href="product.html">Product</a>
+        <a href="feedback.html">Feedback</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <div class="black">
+      <marquee direction="right" scrollamount="5"
+        >Hi! Welcome to our official website!</marquee
+      >
+    </div>
+    <center>
+      <div class="mid">
+        <font face="Comic Sans MS">
+          <p style="font-size: 20px"><b>Most asked question</b></p>
+
+          <button type="button" class="collapsible">
+            What are my payment options?
+          </button>
+          <div class="content2">
+            <p>
+              Online purchases are made easy and secure with a selection of
+              payment options, including credit card (Visa and MasterCard).
+            </p>
+          </div>
+          <button type="button" class="collapsible">
+            Is buying online safe?
+          </button>
+          <div class="content2">
+            <p>
+              Verified by Visa and MasterCard SecureCode protect your
+              transactions when you're shopping online. Register for either of
+              these free services and your purchases are guarded using your own
+              personal password, which acts the same way as using your PIN or
+              signature when you buy an item over-the-counter in a store. This
+              verifies your identity when making your online purchase, ensuring
+              payment is safe and secure.
+            </p>
+          </div>
+
+          <button type="button" class="collapsible">
+            Do I have to be home to receive my item?
+          </button>
+          <div class="content2">
+            <p>
+              Yes. All deliveries must be signed for when you receive them. If
+              you are unable to take delivery of your items in person, or if you
+              have not received them within a reasonable period.
+            </p>
+          </div>
+          <button type="button" class="collapsible">
+            What happens if I'm not at home to received my purchase items?
+          </button>
+          <div class="content2">
+            <p>
+              If you are not available to take delivery of your parcel, a
+              delivery slip with further instructions will be left in your
+              letterbox.
+            </p>
+          </div>
+          <button type="button" class="collapsible">
+            What is HoHo Tumbler online refund policy?
+          </button>
+          <div class="content2">
+            <p>
+              We want you to be completely satisfied with your purchase and
+              suggest that you inspect your items upon delivery or pick-up, to
+              ensure you are happy with their condition and operation. If you're
+              not content with the state of your new purchase, please contact us
+              through our social media.
+            </p>
+          </div>
+        </font>
+      </div>
+    </center>
+    <br /><br /><br /><br /><br /><br />
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active2");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <!    ANCHOR     !>
+    <a href="#anchor"> <img class="anchor" src="asset/image/Up.png" /></a>
+    <center>
+      <!   FOOTER   !>
+      <div class="footer">
+        <br />
+        <p>
+          <font color="white"
+            >Copyright © 2022 DASH Official Company Website.All right
+            reserved<br />
+            Thank you for visiting!
+          </font>
+        </p>
+
+        <p>
+          <a href="help.html"><font style="color: white">Help</font></a
+          ><font color="white"> |</font>
+
+          <a href="contact.html"><font style="color: white">Contact</font></a>
+        </p>
+      </div>
+    </center>
+  </body>
+</html>
